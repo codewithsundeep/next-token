@@ -1,0 +1,32 @@
+{
+  "name": "next-token",
+  "version": "1.0.0",
+  "description": "Simple JWT  Auth Token For Next JS",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithsundeep/next-token.git"
+  },
+  "keywords": [
+    "next-token",
+    "next js token",
+    "token for auth in next js",
+    "simple jwt like token",
+    "simple auth token"
+  ],
+  "author": "Sundeep Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codewithsundeep/next-token/issues"
+  },
+  "homepage": "https://github.com/codewithsundeep/next-token#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1"
+  }
+}
