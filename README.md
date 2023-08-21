@@ -31,10 +31,10 @@ const decodedData = await verify(token, "your-secret-key");
 This module is designed to work seamlessly with Next.js applications, providing a secure way to handle token-based authentication and data encryption in your Next.js projects.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE.md file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/codewithsundeep/next-token/blob/main/LICENSE) file for details.
 
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please open an issue or submit a pull request.
 
 ## Acknowledgments
-This project uses the CryptoJS library for cryptographic operations.
+This project uses the [CryptoJS](https://github.com/brix/crypto-js) library for cryptographic operations.
