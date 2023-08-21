@@ -9,7 +9,7 @@ export interface VerifyResult {
   data: string | object | false; // Updated to allow false for errors
 }
 
-export async function sign(objOrString: string | object, secretString: string): Promise<string | false> {
+export async function sign(objOrString: object, secretString: string): Promise<string | false> {
   try {
     const obj = typeof objOrString === 'string' ? JSON.parse(objOrString) : objOrString;
     const token = await CryptoJS.AES.encrypt(JSON.stringify(obj), secretString).toString();
