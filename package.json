@@ -28,5 +28,8 @@
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",
     "typescript": "^5.1.6"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/codewithsundeep"
+  },
 }
